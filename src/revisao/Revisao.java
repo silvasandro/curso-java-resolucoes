@@ -1,5 +1,6 @@
 package revisao;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Revisao {
@@ -220,8 +221,28 @@ public class Revisao {
 
     }
 
+    public static int receberNumeroAtravesDoScanner(Scanner scanner) {
+        int contador = 0;
+        while (contador < 3) {
+            try {
+                System.out.println("Por favor digite um número válido");
+                return scanner.nextInt();
+            } catch (InputMismatchException e) {
+                contador++;
+                scanner.nextLine();
+                System.out.println("Você não digitou um numero");
+            }
+        }
+        throw new RuntimeException("Número de tentativas esgotadas");
+    }
+
     public static void main(String[] args) {
-        forca();
+
+        System.out.println("banana".length());
+
+        /* try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println(receberNumeroAtravesDoScanner(scanner));
+        } */
     }
 
 }
