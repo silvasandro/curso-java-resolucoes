@@ -1,7 +1,6 @@
 package parte_02.conteudo_02;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercicio01 {
@@ -56,7 +55,7 @@ public class Exercicio01 {
                 indice++;
             }
 
-            for (Integer item: numeros) {
+            for (Integer item : numeros) {
                 if (item != null) {
                     System.out.print(item + " ");
                 }
