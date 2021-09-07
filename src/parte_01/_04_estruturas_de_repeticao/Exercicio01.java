@@ -1,4 +1,4 @@
-package parte_01.conteudo_03;
+package parte_01._04_estruturas_de_repeticao;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package parte_01.conteudo_01;
+package parte_01._02_logica_e_variaveis;
 
 public class Exercicio01 {
 

@@ -1,4 +1,4 @@
-package parte_01.conteudo_02;
+package parte_01._03_estruturas_de_controle;
 
 import java.util.Scanner;
 

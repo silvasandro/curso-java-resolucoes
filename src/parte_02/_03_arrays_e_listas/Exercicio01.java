@@ -1,4 +1,4 @@
-package parte_02.conteudo_02;
+package parte_02._03_arrays_e_listas;
 
 import java.util.ArrayList;
 import java.util.Scanner;
